@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>garantibbva</name>
+    <displayName><![CDATA[Garanti BBVA Sanal POS]]></displayName>
+    <version><![CDATA[0.1.2]]></version>
+    <description><![CDATA[GarantiBBVA SanalPOS, PrestaShop için bir ödeme altyapısı modülüdür.
+            Kredi/banka kartları ile ödeme kabul etmenizi sağlar.]]></description>
+    <author><![CDATA[EticSoft R&D Lab]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

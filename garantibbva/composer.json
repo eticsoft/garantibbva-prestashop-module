@@ -1,0 +1,33 @@
+{
+  "name": "eticsoft/garantibbva",
+  "description": "GarantiBBVA SanalPOS Payment Module for Prestashop",
+  "type": "prestashop-module",
+  "authors": [
+    {
+      "name": "Eticsoft A.Ş.",
+      "email": "opensource@eticsoft.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=7.4",
+    "prestashop/prestashop": "^1.7 || ^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Eticsoft\\Sanalpospro\\": "vendor/Eticsoft/Sanalpospro/",
+      "Eticsoft\\Common\\": "vendor/Eticsoft/Common/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "prestashop": {
+      "legacy": false
+    }
+  },
+  "minimum-stability": "stable"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>GarantiBBVA</name>
+	<displayName><![CDATA[Garanti BBVA Payment Gateway]]></displayName>
+	<version><![CDATA[0.1.2]]></version>
+	<description><![CDATA[GarantiBBVA is a payment gateway module for PrestaShop. It allows you to accept payments via credit card.]]></description>
+	<author><![CDATA[Eticsoft R&D Lab]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

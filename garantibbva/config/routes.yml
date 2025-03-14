@@ -1,0 +1,11 @@
+garantibbva_api:
+    path: /module/garantibbva/api
+    methods: [GET, POST]
+    defaults:
+        _controller: 'Module\GarantiBBVA\Controller\AdminGarantiBBVAIapiController::initContent'
+        _legacy_controller: 'AdminGarantiBBVAIapiController'
+        _legacy_link: 'AdminGarantiBBVAIapiController'
+    options:
+        expose: true
+    requirements:
+        _permission: 'ADMINGARANTIBBVAIAPI_READ'

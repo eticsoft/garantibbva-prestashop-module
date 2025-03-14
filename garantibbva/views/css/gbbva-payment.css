@@ -1,0 +1,40 @@
+.payment-container {
+    position: relative;
+    margin-top: 20px;
+    min-width: 300px; /* Minimum genişlik tanımlama */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Sola hizalama için değiştirildi */
+}
+
+#payment-option-1-container {
+    position: relative;
+    padding-right: 170px; /* Logo için alan */
+}
+
+.payment-logo {
+    width: 120px; /* Logo boyutu */
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: -48px;
+    left: 160px; /* right yerine left kullanıldı */
+}
+
+/* Ödeme seçeneği container'ı için ek stil */
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .payment-container {
+        min-width: 250px; /* Mobil için daha küçük minimum genişlik */
+    }
+    
+    .payment-logo {
+        width: 100px; /* Mobil için daha küçük logo */
+        left: 160px; /* Mobil için sol boşluk */
+    }
+}

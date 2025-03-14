@@ -1,0 +1,279 @@
+
+/* CLASSİC SANAL POS CSS */
+/* CLASSİC SANAL POS CSS */
+[data-garantibbva-wrapper] {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+}
+
+[data-garantibbva-container] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+[data-garantibbva-card] {
+    flex: 1 1 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[data-garantibbva-card-header] {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    text-align: center;
+}
+
+[data-garantibbva-card-body] {
+    padding: 10px;
+}
+
+[data-garantibbva-card] table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+[data-garantibbva-card] table th,
+[data-garantibbva-card] table td {
+    padding: 6px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+}
+
+[data-garantibbva-card] table th {
+    font-weight: 600;
+    color: #495057;
+}
+
+[data-garantibbva-card] table tr:last-child td {
+    border-bottom: none;
+}
+
+[data-garantibbva-card] table tr:hover td {
+    background-color: #f8f9fa;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    [data-garantibbva-wrapper] {
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    [data-garantibbva-container] {
+        gap: 10px;
+    }
+    
+    [data-garantibbva-card] {
+        flex: 1 1 100%;
+    }
+    
+    [data-garantibbva-card] table th,
+    [data-garantibbva-card] table td {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+[data-garantibbva-note] {
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #666;
+    border: 1px solid #dedede;
+    margin-top: 10px;
+}
+
+/* Tablo için ek düzenlemeler */
+[data-garantibbva-table] {
+    font-size: 13px;
+    width: 100%;
+}
+
+[data-garantibbva-table] td {
+    padding: 5px 8px;
+} 
+
+/* MODERN SANAL POS CSS */
+
+.gbbva-installment-container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 12px;
+}
+
+.gbbva-installment-tabs {
+    margin-bottom: 10px;
+}
+
+.gbbva-tab-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 6px;
+}
+
+.gbbva-tab-item {
+    padding: 6px 8px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 16px;
+}
+
+.gbbva-tab-item:hover {
+    border-color: #adb5bd;
+}
+
+.gbbva-tab-item.active {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.gbbva-tab-content {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.gbbva-tab-pane {
+    display: none;
+    padding: 8px;
+}
+
+.gbbva-tab-pane.active {
+    display: block;
+}
+
+.gbbva-installment-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.gbbva-installment-table th,
+.gbbva-installment-table td {
+    padding: 6px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.gbbva-installment-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.gbbva-installment-table tr:last-child td {
+    border-bottom: none;
+}
+
+.gbbva-installment-table tr:hover td {
+    background-color: #f8f9fa;
+}
+
+.gbbva-installment-note {
+    margin-top: 8px;
+    font-size: 10px;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .gbbva-installment-container {
+        padding: 8px;
+        font-size: 11px;
+    }
+    
+    .gbbva-tab-header {
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+    }
+    
+    .gbbva-tab-item {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    
+    .gbbva-installment-table th,
+    .gbbva-installment-table td {
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+}
+
+.garantibbva-logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.garantibbva-logo-wrapper div {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 6px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.garantibbva-logo-wrapper div:hover {
+    border-color: #2fb344;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.garantibbva-installment-card-wrapper-active {
+    display: block;
+}
+
+.garantibbva-installment-card-wrapper-inactive {
+    display: none;
+}
+
+.garantibbva-card-family-wrapper-active {
+    border: 1px solid #90EE90;
+    background-color: #F0FFF0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.garantibbva-card-family-wrapper-inactive {
+    border: 1px solid #ddd;
+}
+
+.garantibbva-installment-message-alert {
+    background-color: #ffebeb;
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 6px;
+    border-radius: 6px;
+} 
